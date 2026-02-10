@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="title">Did you guys miss me?</h1>
+        <h1 className="title">Did you Love me?</h1>
         
         {!response ? (
           <div className="question-container" ref={containerRef}>
@@ -85,7 +85,7 @@ function App() {
               <div className="heart">💖</div>
               <div className="heart">💕</div>
             </div>
-            <h2 className="message">I know girls that you love me too much!</h2>
+            <h2 className="message">I know that you love me too much!</h2>
             <p className="sub-message">You couldn't even click "NO" even if you wanted to! 😄</p>
             <button className="reset-button" onClick={resetResponse}>
               Ask Again
