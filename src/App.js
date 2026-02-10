@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="title">Did you Love me?</h1>
+        <h1 className="title">Do you Love me?</h1>
         
         {!response ? (
           <div className="question-container" ref={containerRef}>
